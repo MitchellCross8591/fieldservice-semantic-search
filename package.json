@@ -1,0 +1,12 @@
+{
+  "name": "fieldservice-semantic-search",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/field_search.ts",
+    "test": "tsx --test test/field_search.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "openai": "^4.0.0" },
+  "devDependencies": { "tsx": "^4.0.0", "typescript": "^5.0.0" }
+}
